@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!-- Staff login Screen -->
+
+<html>
+
+<head>
+    <title>Please Login</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/loginStylesheet.css" rel="stylesheet" type="text/css" />
+    <!-- jQuery API -->
+    <script src="js/jquery-1.5.min.js" type="text/javascript"></script>
+    <!-- Login handler -->
+    <script src="js/login.js" type="text/javascript"></script>
+
+</head>
+
+<body style="background-color: #3D4143;">
+    <main class="login-screen">
+        <img src="images/ditLogo.png" style="width: 60%;">
+        <div id="loginFields">
+            <p class="login-welcome" style="color: white !important;">Staff Login</p>
+
+            <p>
+                <label class="white">Staff Number</label><br>
+                <input type="text" class="textbox" id="username" name="username" required />
+            </p>
+
+            <p>
+                <label class="white">Password</label><br>
+                <input type="password" class="textbox" id="password" name="password" required/>
+            </p>
+
+        </div>
+        <button type="submit" value="Submit" name="but_submit" id="but_submit" onclick="staffLogin()">Submit</button>
+
+
+        <br><br><a href="index.html" style="color: white !important;" id="tapHere">Tap here for student login</a>
+        <p style="text-align: center; color: #F05A29 !important;"><small><a href="mailto:support@dit.ie" id="forgotPassword" style="text-align: center; color: #F05A29 !important;"></a></small></p>
+    </main>
+    <script>
+
+    </script>
+</body>
+
+</html>

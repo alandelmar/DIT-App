@@ -1,0 +1,129 @@
+@charset "UTF-8";
+/* © ALAN DELMAR, 2018
+/* -- MOBILE-FIRST STYLESHEET FOR RESPONSIVE WEB -- */
+
+body {
+    background-color: #FFFFFF;
+    font-family: Helvetica, sans-serif;
+    color: #000000;
+    font-size: 0.97em;
+    letter-spacing: 0.05em;
+    text-align: left;
+}
+main {
+    text-align: center;
+}
+.login-screen {
+    text-align: center;
+    padding-top: 6% !important;
+}
+#div_login {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+.textbox {
+    border-radius: 4px;
+}
+#but_submit {
+    width: 75%;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    background-color: #0295DB;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 1.5em;
+    margin-top: 0.7em;
+    margin-bottom: 0;
+    text-align: center !important;
+}
+#but_submit:active {
+    background-color: #0262B2;
+}
+.login-welcome {
+    margin-bottom: 1em;
+    margin-top: 0.3em;
+    font-family: "Lucida Grande", sans-serif;
+    color: #0262B2;
+    font-size: 2.2em;
+    letter-spacing: -0.01em;
+    text-align: center;
+    font-weight: bold;
+}
+label {
+    font-family: arial;
+    color: #3D4143;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+
+p {
+    font-family: Helvetica, sans-serif;
+    color: #000000;
+    font-size: 0.97em;
+    letter-spacing: 0.05em;
+    text-align: left;
+}
+
+a {
+    font-family: Arial, sans-serif;
+    color: #0262B2 !important;
+    font-size: 1.1em;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+
+a:visited {
+    font-family: Arial, sans-serif;
+    color: #999999;
+    font-size: 1.1em!important;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+
+a:active {
+   font-family: Arial, sans-serif;
+    color: #F05A29 !important;
+    font-size: 1.1em!important;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+
+.loading-page {
+    padding-top: 60%;
+}
+
+select {
+    border: 1px solid #302C2B;
+    font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    text-decoration: none;
+    font-size: 0.9em;
+    color: #302C2B;
+    background-color: #EFEFEF;
+}
+
+
+input {
+    border: 1px solid #CCCCCC;
+    font-family: Arial, sans-serif;
+    color: #000000;
+    font-size: 1.2em;
+    letter-spacing: 0.01em;
+    text-align: left;
+    padding: 8px;
+    width: 93%;
+}
+.staff-form-label {
+    color: #FFFFFF !important;
+}
+#loginFields {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.white {
+    color: #FFFFFF !important;
+    text-align: left !important;
+}
