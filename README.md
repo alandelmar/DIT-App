@@ -2,7 +2,7 @@
 iOS app developed for the staff and students of the Dublin Institute of Technology.
 Main features include geolocational data, database searches and third-party API's
 
-To view this app on a device of Xcode simulator do the following steps:
+To view this app on a device or Xcode simulator do the following steps:
 
 1. Turn on server (I used MAMP)
 
